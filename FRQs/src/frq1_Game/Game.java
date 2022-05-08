@@ -1,0 +1,55 @@
+package frq1_Game;
+
+/**
+ * Class Game is part of Question 1 from the FRQs in the
+ * 2022 AP Computer Science A exam.
+ * Problem definition from page 3 in:
+ * https://apcentral.collegeboard.org/pdf/ap22-frq-computer-science-a.pdf
+ */
+public class Game {
+    private Level levelOne;
+    private Level levelTwo;
+    private Level levelThree;
+
+    /** Postcondition: All instance variables have been initialized */
+    public Game() {
+        /* implementation not relevant */
+    }
+
+    /** Returns true if this game is a bonus game 
+     * and returns false otherwise */
+    public boolean isBonus() {
+        /* implementation not relevant */
+        /* return something to clear compiler errors */
+        return false;
+    }
+
+    /** Simulates the play of this Game (consisting of three levels)
+     * and updates all relevant game data
+     */
+    public void play() {
+        /* implementation not relevant */
+    }
+
+    /** Returns the score earned in the most recently played game, 
+     * as described in part (a) */
+    public int getScore() {
+        
+        /* TO BE IMPLEMENTED IN PART (A) */
+        
+        /* return something to clear compiler errors */
+        return 0;
+    }
+
+    /** Simulates the play of num games and returns the highest
+     * score earned, as described in part (b).
+     * Precondition: num > 0
+     */
+    public int playManyTimes(int num) {
+        
+        /* TO BE IMPLEMENTED IN PART (B) */
+        
+        /* return something to clear compiler errors */
+        return 0;
+    }
+}
