@@ -37,7 +37,7 @@ public class Game {
      * as described in part (a) */
     public int getScore() {
         
-        /* TO BE IMPLEMENTED IN PART (A) */
+        /* IMPLEMENTATION OF PART (A) */
         int score = 0;
         boolean done = levelOne.goalReached();
 
@@ -66,7 +66,7 @@ public class Game {
      */
     public int playManyTimes(int num) {
         
-        /* TO BE IMPLEMENTED IN PART (B) */
+        /* IMPLEMENTATION OF PART (B) */
         int max = Integer.MAX_VALUE;
         for (int i = 0; i < num; i++) {
             play();
