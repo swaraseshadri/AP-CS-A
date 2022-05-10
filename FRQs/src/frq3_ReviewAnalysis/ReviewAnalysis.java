@@ -25,7 +25,7 @@ public class ReviewAnalysis {
      */
     public double getAverageRating() {
         
-        /* TO BE IMPLEMENTED IN PART (A) */
+        /* IMPLEMENTATION FOR PART (A) */
         int total = allReviews[0].getRating();
 
         for (Review r : allReviews) {
@@ -43,7 +43,7 @@ public class ReviewAnalysis {
      */
     public ArrayList<String> collectComments() {
         
-        /* TO BE IMPLEMENTED IN PART (B) */
+        /* IMPLEMENTATION FOR PART (B) */
         ArrayList<String> arr = new ArrayList<>();
         
         for (int i = 0; i < allReviews.length; i++) {

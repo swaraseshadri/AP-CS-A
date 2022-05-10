@@ -7,7 +7,7 @@ package frq2_TextBook;
  * https://apcentral.collegeboard.org/pdf/ap22-frq-computer-science-a.pdf
  */
 
-/* TO BE IMPLEMENTED COMPLETLY FOR THIS QUESTION */
+/* COMPLETE IMPLEMENTATION FOR THIS QUESTION */
 public class TextBook extends Book {
     private int edition;
 

@@ -18,7 +18,7 @@ public class Data {
      */
     public void repopulate() {
         
-        /* TO BE IMPLEMENTED IN PART (A) */
+        /* IMPLEMENTATION FOR PART (A) */
         for (int r = 0; r < grid[0].length; r++) {
             for (int c = 0; c < grid.length; c++) {
                 int value = 0;
@@ -48,7 +48,7 @@ public class Data {
      */
     public int countIncreasingCols() {
         
-        /* TO BE IMPLEMENTED IN PART (B) */
+        /* IMPLEMENTATION FOR PART (B) */
         int count = 0;
         
         for (int c = 0; c < grid[0].length; c++) {
