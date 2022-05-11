@@ -65,51 +65,6 @@ public class Data {
         return count;
     }
     
-    /** Returns the number of columns in grid that are in increasing order,
-     * as described in part (b)
-     * Precondition: grid is not null,
-     *    grid has at least one element,
-     *    grid is jagged, with rows of different number of columns, including
-     *         null rows or rows with 0 columns.
-     */
-    public int countIncreasingCols2() {
-        
-        /* IMPLEMENTATION FOR PART (B) */
-        // create an array list initially empty, where we
-        // accumulate the largest value encountered on each column.
-        // However if at any point we detect a value smaller than
-        // the largest value known already, the value for that column
-        // is set to null. And once is set to null it will not be tested
-        // or updated anymore.
-        ArrayList<Integer> colMaxValues = new ArrayList<Integer>();
-        
-        for (int r = 0; r < grid.length; r++) {
-            for (int c = 0; grid[r] != null && c < grid[r].length; c++) {
-                if (colMaxValues.size() <= c) {
-                    colMaxValues.add(grid[r][c]);
-                } else {
-                    Integer colMaxValue = colMaxValues.get(c);
-                    if (colMaxValue != null && colMaxValue > grid[r][c]) {
-                        colMaxValues.set(c, null);
-                    } else {
-                        colMaxValues.set(c, grid[r][c]);
-                    }
-                }
-            }
-        }
-        
-        // The number of non-null values in the colMaxValues give
-        // the number of increasing columns.
-        int count = 0;
-        for(Integer colMaxValue : colMaxValues) {
-            if (colMaxValue != null) {
-                count++;
-            }
-        }
-        
-        return count;
-    }
-
     // There may be instance variables, constructors, and methods that are not shown.
 
 }
